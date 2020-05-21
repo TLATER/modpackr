@@ -1,0 +1,189 @@
+minecraft:
+  version: 1.12.2
+
+mods:
+  curseForge:
+    # Minecraft optimization
+    - name: foamfix-optimization-mod
+      id: 278494
+    - name: vanillafix
+      # This literally just catches crashes, so you don't need to
+      # restart the game... And fixes some texture-related
+      # performance problems (doesn't draw things you don't see)
+      id: 292785
+
+    # Quark (adds lots of really immersive and important things that
+    # should really just be in the game)
+    - name: quark
+      id: 243121
+    - name: quark-oddities
+      id: 301051
+
+    # Aether
+    - name: the-aether
+      id: 255308
+    - name: aether-lost-content
+      id: 318602
+    - name: aether-addon
+      id: 294269
+
+    # Fantasy creatures :3
+    - name: ice-and-fire-dragons
+      id: 264231
+
+    # Nicer transport stuff
+    - name: transport
+      id: 292692
+
+    # Really makes things a lot more pretty
+    - name: dynamic-surroundings
+      id: 238891
+    - name: stellar-sky
+      id: 236078
+
+    # Farming
+    - name: farming-for-blockheads
+      id: 261924
+
+    # Seasons
+    - name: serene-seasons
+      id: 291874
+
+    # UI improvement stuffs
+    - name: jei
+      # Recipes...
+      id: 238222
+    - name: just-enough-resources-jer
+      # Adds resource info to JEI
+      id: 240630
+    - name: ding
+      # Ding when the game has finished loading
+      id: 231275
+    - name: toast-control
+      # Disable tutorial pop-ups
+      id: 271740
+    - name: applecore
+      # Add food overlay (shows you how much eating does... So useful!)
+      id: 224472
+    - name: inventory-tweaks
+      id: 223094
+    - name: better-advancements
+      id: 272515
+    - name: enchantment-descriptions
+      id: 250419
+    - name: xaeros-minimap
+      id: 263420
+    - name: equipment-tooltips
+      id: 293973
+
+    # Little tweaks
+    - name: respawnable-pets
+      id: 319582
+    - name: dude-wheres-my-horse
+      # Adds horse finding ocarina
+      id: 308843
+    - name: passable-leaves
+      id: 267934
+    - name: swingthroughgrass
+      id: 264353
+    - name: faster-ladder-climbing
+      id: 258881
+    - name: fast-leaf-decay
+      id: 230976
+    - name: cosmetic-armor-reworked
+      id: 237307
+    - name: lapis-stays-in-the-enchanting-table
+      id: 263905
+    - name: connected-glass
+      id: 383129
+    - name: let-sleeping-dogs-lie
+      id: 334098
+    - name: save-my-stronghold
+      id: 355248
+    - name: netherportalfix
+      id: 241160
+    - name: softer-hay-bales
+      id: 344178
+    - name: wither-skeleton-tweaks
+      id: 255902
+    - name: passthrough-signs
+      # Allows clicking through banners/signs on chests and things
+      id: 224633
+    - name: clumps
+      # Collect XP into bigger orbs...
+      id: 256717
+    - name: ambient-environment
+      # Slightly nicer position-based terrain colors
+      id: 320163
+    - name: better-burning
+      # Better fire-related combat things
+      id: 353434
+    - name: pretty-beaches
+      # Don't interrupt water on digging at a beach
+      id: 290659
+    - name: spice-of-life
+      # More hearts with more varied foods
+      id: 220811
+
+    # Slight world enhancements
+    - name: snow-accumulation
+      # Makes snow accumulate!
+      id: 275415
+    - name: snow-real-magic
+      # Makes snow work under fences
+      id: 308663
+
+    # Tools
+    - name: dank-storage
+      # Extremely convenient backpacks
+      id: 335673
+
+    # Furniturey things
+    - name: multibeds
+      id: 244858
+    - name: storage-drawers
+      id: 223852
+    - name: cooking-for-blockheads
+      id: 231484
+
+# > 1.12
+    # - name: snow-under-trees
+    #   id: 353942
+    # - name: slime-tweaks
+    #   id: 377289
+    # - name: just-enough-beacons
+    #   id: 352622
+    # - name: ma-enchants
+    #   id: 351113
+    # - name: swamp-expansion
+    #   # Makes swamps a bit more distinct (mainly like that it adds
+    #   # willows)
+    #   id: 356036
+    # - name: endergetic
+    #   # Adds a bit more to the end; mainly additional passive mobs,
+    #   # prettier plant life
+    #   id: 291509
+    # - name: upgrade-aquatic
+    #   # Adds a little bit more underwater content to round off what
+    #   # they've done to the core game
+    #   id: 326895
+    # - name: bloomful
+    #   # Adds a neat little flower tree forest biome
+    #   id: 351860
+    # - name: vanilla-excavators-forge
+    #   # 3x3 shovels
+    #   id: 359786
+    # - name: vanilla-hammers
+    #   id: 317756
+    # - name: vanilla-things
+    #   # More doors, slabs, etc.
+    #   id: 361003
+    # - name: decorative-blocks
+    #   id: 362528
+    # # Dependencies
+    # - name: abnormals-core
+    #   id: 382216
+    # - name: give-mod
+    #   id: 348379
+    # - name: simple-farming
+    #   id: 327554
