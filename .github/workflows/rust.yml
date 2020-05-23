@@ -14,5 +14,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: icepuma/rust-action@master
-        with:
-          args: cd integration-test && cargo fmt -- --check && cargo clippy -- -Dwarnings && cargo test
+      with:
+        args: cd integration-test && cargo fmt -- --check && cargo clippy -- -Dwarnings && cargo test
