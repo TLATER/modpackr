@@ -1,3 +1,5 @@
+![Rust Tests](https://github.com/TLATER/modpackr/workflows/Rust/badge.svg)
+
 *Note: This is very, very WIP*
 
 # Modpackr
